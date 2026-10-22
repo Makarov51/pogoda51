@@ -5,8 +5,15 @@
     <link>https://www.ogimet.com/synops.phtml.en</link>
     <description>Фактические наземные SYNOP-наблюдения. Температура, ветер и давление. Источник: OGIMET.</description>
     <language>ru</language>
-    <lastBuildDate>Thu, 22 Oct 2026 06:23:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 07:05:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>Мурманск — 22.10.2026 09:00 МСК</title>
+      <link>https://www.ogimet.com/synops.phtml.en</link>
+      <guid isPermaLink="false">22113-202610220600-AAXX 22061 22113 12970 02006 10013 21022 30188 40253 57006 60002 333 20003 91008 90760 91110==</guid>
+      <pubDate>Thu, 22 Oct 2026 06:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Станция:&lt;/b&gt; Мурманск, ВМО 22113&lt;/p&gt;&lt;p&gt;&lt;b&gt;Время наблюдения:&lt;/b&gt; 22.10.2026 09:00 МСК&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Температура воздуха:&lt;/b&gt; +1.3 °C&lt;/li&gt;&lt;li&gt;&lt;b&gt;Ветер:&lt;/b&gt; ЮЮЗ, 6.0 м/с&lt;/li&gt;&lt;li&gt;&lt;b&gt;Давление на станции:&lt;/b&gt; 764 мм рт. ст.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Давление на уровне моря:&lt;/b&gt; 769 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Исходный SYNOP:&lt;/b&gt;&lt;br&gt;&lt;code&gt;AAXX 22061 22113 12970 02006 10013 21022 30188 40253 57006 60002 333 20003 91008 90760 91110==&lt;/code&gt;&lt;/p&gt;&lt;p&gt;Источник: OGIMET. Фактическое наблюдение, не прогноз.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Мурманск — 22.10.2026 06:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
@@ -31,9 +38,9 @@
     <item>
       <title>Мурманск — 21.10.2026 21:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202610211800-AAXX 21181 22113 12570 62006 10028 20006 30214 40278 57008 60002 86500 333 10044 91009 90760 91112==</guid>
+      <guid isPermaLink="false">22113-202610211800-AAXX 21181 22113 12570 62006 10028 20006 30214 40278 57008 69902 86500 333 10044 91009 90760 91112==</guid>
       <pubDate>Wed, 21 Oct 2026 18:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Станция:&lt;/b&gt; Мурманск, ВМО 22113&lt;/p&gt;&lt;p&gt;&lt;b&gt;Время наблюдения:&lt;/b&gt; 21.10.2026 21:00 МСК&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Температура воздуха:&lt;/b&gt; +4.4 °C&lt;/li&gt;&lt;li&gt;&lt;b&gt;Ветер:&lt;/b&gt; ЮЮЗ, 6.0 м/с&lt;/li&gt;&lt;li&gt;&lt;b&gt;Давление на станции:&lt;/b&gt; 766 мм рт. ст.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Давление на уровне моря:&lt;/b&gt; 771 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Исходный SYNOP:&lt;/b&gt;&lt;br&gt;&lt;code&gt;AAXX 21181 22113 12570 62006 10028 20006 30214 40278 57008 60002 86500 333 10044 91009 90760 91112==&lt;/code&gt;&lt;/p&gt;&lt;p&gt;Источник: OGIMET. Фактическое наблюдение, не прогноз.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;b&gt;Станция:&lt;/b&gt; Мурманск, ВМО 22113&lt;/p&gt;&lt;p&gt;&lt;b&gt;Время наблюдения:&lt;/b&gt; 21.10.2026 21:00 МСК&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Температура воздуха:&lt;/b&gt; +4.4 °C&lt;/li&gt;&lt;li&gt;&lt;b&gt;Ветер:&lt;/b&gt; ЮЮЗ, 6.0 м/с&lt;/li&gt;&lt;li&gt;&lt;b&gt;Давление на станции:&lt;/b&gt; 766 мм рт. ст.&lt;/li&gt;&lt;li&gt;&lt;b&gt;Давление на уровне моря:&lt;/b&gt; 771 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;Исходный SYNOP:&lt;/b&gt;&lt;br&gt;&lt;code&gt;AAXX 21181 22113 12570 62006 10028 20006 30214 40278 57008 69902 86500 333 10044 91009 90760 91112==&lt;/code&gt;&lt;/p&gt;&lt;p&gt;Источник: OGIMET. Фактическое наблюдение, не прогноз.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Мурманск — 21.10.2026 18:00 МСК</title>
