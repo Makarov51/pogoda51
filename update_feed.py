@@ -125,9 +125,8 @@ def make_item(dt, synop):
     title = f"Мурманск — {local:%d.%m.%Y %H:%M} МСК"
 
     body = [
-        f"<p><b>Станция:</b> Мурманск, ВМО {STATION}</p>",
-        f"<p><b>Время наблюдения:</b> "
-        f"{local:%d.%m.%Y %H:%M} МСК</p>",
+        f"<p><b>Погода на ГМС Мурманск — "
+        f"{local:%d.%m.%Y %H:%M} МСК</b></p>",
         "<ul>",
     ]
 
@@ -139,19 +138,11 @@ def make_item(dt, synop):
     ):
         if key in values:
             body.append(
-                f"<li><b>{escape(key)}:</b> "
+                f"<li>{escape(key)}: "
                 f"{escape(values[key])}</li>"
             )
 
     body.append("</ul>")
-    body.append(
-        "<p><b>Исходный SYNOP:</b><br><code>"
-        + escape(synop)
-        + "</code></p>"
-    )
-    body.append(
-        "<p>Источник: OGIMET. Фактическое наблюдение, не прогноз.</p>"
-    )
 
     item = ET.Element("item")
     ET.SubElement(item, "title").text = title
@@ -164,6 +155,7 @@ def make_item(dt, synop):
     ET.SubElement(item, "pubDate").text = format_datetime(dt)
     ET.SubElement(item, "description").text = "".join(body)
     return item
+
 
 
 def main():
