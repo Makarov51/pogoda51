@@ -64,14 +64,24 @@ def decode(synop):
             if ff is not None:
                 # iw 0/1 = m/s; iw 3/4 = knots.
                 speed_ms = ff if iw in (0, 1) else ff * 0.514444
-                if dd == 0 and ff == 0:
-                    direction = "штиль"
-                elif dd == 99:
-                    direction = "переменное направление"
-                elif 1 <= dd <= 36:
-                    direction = f"{dd * 10:03d}°"
-                else:
-                    direction = None
+                
+if dd == 0 and ff == 0:
+    direction = "штиль"
+elif dd == 99:
+    direction = "переменное направление"
+elif 1 <= dd <= 36:
+    directions = [
+        "С", "ССВ", "СВ", "ВСВ",
+        "В", "ВЮВ", "ЮВ", "ЮЮВ",
+        "Ю", "ЮЮЗ", "ЮЗ", "ЗЮЗ",
+        "З", "ЗСЗ", "СЗ", "ССЗ",
+    ]
+    degrees = dd * 10
+    index = int((degrees + 11.25) // 22.5) % 16
+    direction = directions[index]
+else:
+    direction = None
+
 
                 if direction is not None:
                     result["Ветер"] = (
