@@ -97,13 +97,6 @@ def decode(synop):
                 t = -t
             result["Температура воздуха"] = f"{t:+.1f} °C"
 
-        # Station pressure, group 3P0P0P0P0.
-        m = re.fullmatch(r"3(\d{4})", g)
-        if m:
-            p = int(m.group(1))
-            if p < 5000:
-                p += 10000
-            result["Давление на станции"] = f"{p / 10 * 0.7500617:.0f} мм рт. ст."
 
         # Mean sea-level pressure, group 4PPPP.
         m = re.fullmatch(r"4(\d{4})", g)
@@ -142,7 +135,6 @@ def make_item(dt, synop):
         "Температура воздуха",
         "Ветер",
         "Порывы ветра",
-        "Давление на станции",
         "Давление на уровне моря",
     ):
         if key in values:
