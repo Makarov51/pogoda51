@@ -149,11 +149,21 @@ def make_item(dt, synop):
     
     for key in (
         "Температура воздуха",
-        "Облачность",
         "Ветер",
         "Давление на уровне моря",
     ):
-        if key == "Ветер" and key in values:
+        if key == "Температура воздуха" and key in values:
+            temperature = values[key]
+            cloudiness = values.get("Облачность")
+
+            if cloudiness:
+                temperature += f", {cloudiness.lower()}"
+
+            body.append(
+                f"<li>{escape(key)}: "
+                f"{escape(temperature)}</li>"
+            )
+        elif key == "Ветер" and key in values:
             wind_text = values[key]
             gust_text = values.get("Порывы ветра")
 
@@ -169,6 +179,7 @@ def make_item(dt, synop):
                 f"<li>{escape(key)}: "
                 f"{escape(values[key])}</li>"
             )
+
 
 
     body.append("</ul>")
