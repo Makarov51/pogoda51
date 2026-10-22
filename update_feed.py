@@ -66,7 +66,7 @@ def decode(synop):
                 result["Облачность"] = cloudiness[n]
 
                 dd = int(g[1:3])
-            ff = int(g[3:5])
+                ff = int(g[3:5])
 
             # 00fff gives full speed when ff is coded as 99.
             if ff == 99:
