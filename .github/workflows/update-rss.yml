@@ -4,8 +4,8 @@ name: Update Murmansk RSS
 
 on:
   schedule:
-    - cron: '30,35,40 0,3,6,9,12,15,18,21 * * *'
-      timezone: 'Europe/Moscow'
+    - cron: '*/15 * * * *'
+    timezone: 'Europe/Moscow'
   workflow_dispatch:
 
 
