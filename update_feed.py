@@ -81,13 +81,12 @@ def decode(synop):
                 direction = directions[index]
             else:
                 direction = None
+   
+            if direction is not None:
+                result["Ветер"] = (
+                    f"{direction}, {speed_ms:.1f} м/с"
+                )
 
-
-
-                if direction is not None:
-                    result["Ветер"] = (
-                        f"{direction}, {speed_ms:.1f} м/с"
-                    )
 
     # Decode only explicitly present groups; ///// means missing.
     for g in groups[station_pos + 1:]:
