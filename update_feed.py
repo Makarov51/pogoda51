@@ -63,7 +63,7 @@ def decode(synop):
                 8: "Облачно",
                 9: "Неба не видно",
                 }
-                result["Облачность"] = cloudiness[n]
+            result["Облачность"] = cloudiness[n]
 
             dd = int(g[1:3])
             ff = int(g[3:5])
