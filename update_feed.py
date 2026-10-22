@@ -130,17 +130,29 @@ def make_item(dt, synop):
         "<ul>",
     ]
 
+    
     for key in (
         "Температура воздуха",
         "Ветер",
-        "Порывы ветра",
         "Давление на уровне моря",
     ):
-        if key in values:
+        if key == "Ветер" and key in values:
+            wind_text = values[key]
+            gust_text = values.get("Порывы ветра")
+
+            if gust_text:
+                wind_text += f", порывы до {gust_text}"
+
+            body.append(
+                f"<li>{escape(key)}: "
+                f"{escape(wind_text)}</li>"
+            )
+        elif key in values:
             body.append(
                 f"<li>{escape(key)}: "
                 f"{escape(values[key])}</li>"
             )
+
 
     body.append("</ul>")
 
