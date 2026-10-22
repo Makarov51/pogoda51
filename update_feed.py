@@ -112,8 +112,18 @@ def decode(synop):
             if p < 5000:
                 p += 10000
             result["Давление на уровне моря"] = f"{p / 10 * 0.7500617:.0f} мм рт. ст."
+        
+        # Maximum wind speed: SYNOP group 911ff, speed in m/s.
+        m = re.fullmatch(r"911(\d{2})", g)
+        if m:
+            gust = int(m.group(1))
+            if gust != 99:
+                result["Порывы ветра"] = f"{gust} м/с"
+
 
     return result
+    
+    
 
 
 def make_item(dt, synop):
@@ -131,6 +141,7 @@ def make_item(dt, synop):
     for key in (
         "Температура воздуха",
         "Ветер",
+        "Порывы ветра",
         "Давление на станции",
         "Давление на уровне моря",
     ):
