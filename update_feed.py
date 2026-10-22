@@ -93,7 +93,7 @@ def decode(synop):
             p = int(m.group(1))
             if p < 5000:
                 p += 10000
-            result["Давление на станции"] = f"{p / 10:.1f} гПа"
+            result["Давление на станции"] = f"{p / 10 * 0.7500617:.0f} мм рт. ст."
 
         # Mean sea-level pressure, group 4PPPP.
         m = re.fullmatch(r"4(\d{4})", g)
@@ -101,7 +101,7 @@ def decode(synop):
             p = int(m.group(1))
             if p < 5000:
                 p += 10000
-            result["Давление на уровне моря"] = f"{p / 10:.1f} гПа"
+            result["Давление на уровне моря"] = f"{p / 10 * 0.7500617:.0f} мм рт. ст."
 
     return result
 
