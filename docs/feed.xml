@@ -5,8 +5,15 @@
     <link>https://www.ogimet.com/synops.phtml.en</link>
     <description>Фактические наземные SYNOP-наблюдения. Температура, ветер и давление. Источник: OGIMET.</description>
     <language>ru</language>
-    <lastBuildDate>Fri, 23 Oct 2026 00:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 03:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>Мурманск — 23.10.2026 06:00 МСК</title>
+      <link>https://www.ogimet.com/synops.phtml.en</link>
+      <guid isPermaLink="false">22113-202610230300-AAXX 23031 22113 22570 11906 10022 20002 30177 40241 58010 81500 333 20022 55054 60002 91008 90730 91108==</guid>
+      <pubDate>Fri, 23 Oct 2026 03:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 23.10.2026 06:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +2.2 °C, малооблачно&lt;/li&gt;&lt;li&gt;Ветер: Ю, 6.0 м/с, порывы до 8 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 768 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Мурманск — 23.10.2026 03:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
@@ -167,13 +174,6 @@
       <guid isPermaLink="false">22113-202610200600-AAXX 20061 22113 12570 72406 10090 20029 30154 40216 52032 60002 82508 333 20083 91009 90760 91113==</guid>
       <pubDate>Tue, 20 Oct 2026 06:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 20.10.2026 09:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +9.0 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ЗЮЗ, 6.0 м/с, порывы до 13 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 766 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Мурманск — 20.10.2026 06:00 МСК</title>
-      <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202610200300-AAXX 20031 22113 22970 32306 10089 20026 30122 40184 52031 80001 333 20080 55000 60002 91009 90730 91112==</guid>
-      <pubDate>Tue, 20 Oct 2026 03:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 20.10.2026 06:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +8.9 °C, переменная облачность&lt;/li&gt;&lt;li&gt;Ветер: ЮЗ, 6.0 м/с, порывы до 12 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 764 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
