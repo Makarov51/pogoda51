@@ -119,7 +119,13 @@ def decode(synop):
             t = int(m.group(2)) / 10
             if m.group(1) == "1":
                 t = -t
-            result["Температура воздуха"] = f"{t:+.1f} °C"
+
+            # Reject physically implausible/corrupt SYNOP temperature codes.
+            # Example: 11906 decodes to -90.6 °C and must not be published.
+            if -60.0 <= t <= 60.0:
+                result["Температура воздуха"] = f"{t:+.1f} °C"
+            # If the first temperature group is invalid, do not fall through
+            # to supplementary sections or publish a fabricated temperature.
             break
 
     # Other parameters may occur in supplementary sections too, so continue
