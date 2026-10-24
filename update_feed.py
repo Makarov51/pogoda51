@@ -77,10 +77,11 @@ def decode(synop):
                 else:
                     ff = None
 
+            speed_ms = None
             if ff is not None:
                 # iw 0/1 = m/s; iw 3/4 = knots.
                 speed_ms = ff if iw in (0, 1) else ff * 0.514444
-                
+
             if dd == 0 and ff == 0:
                 direction = "штиль"
             elif dd == 99:
@@ -98,38 +99,38 @@ def decode(synop):
             else:
                 direction = None
    
-            if direction is not None:
+            if direction is not None and speed_ms is not None:
                 result["Ветер"] = (
                     f"{direction}, {speed_ms:.1f} м/с"
                 )
 
 
-    # Current air temperature belongs to the main SYNOP section only.
-    # Groups after section separator 333 contain supplementary data, such
-    # as maximum temperature (e.g. 10062), and must not overwrite it.
-    try:
-        section_333 = groups.index("333", station_pos + 1)
-        main_groups = groups[station_pos + 1:section_333]
-    except ValueError:
-        main_groups = groups[station_pos + 1:]
+    # In FM-12 SYNOP, the current air temperature is positional:
+    # station, iRixhVV, Nddff, 1snTTT. If Nddff has ff=99,
+    # an additional 00fff wind-speed group may appear before 1snTTT.
+    # Do not search the whole report for any group starting with "1":
+    # Nddff itself can begin with 1 (e.g. 11906 = cloud 1, wind 90/6).
+    temp_pos = wind_pos + 1
+    if wind_pos < len(groups) and re.fullmatch(r"\d{5}", groups[wind_pos]):
+        wind_group = groups[wind_pos]
+        if wind_group[3:5] == "99":
+            extra_pos = wind_pos + 1
+            if (extra_pos < len(groups)
+                    and re.fullmatch(r"00\d{3}", groups[extra_pos])):
+                temp_pos = extra_pos + 1
 
-    for g in main_groups:
-        m = re.fullmatch(r"1([01])(\d{3})", g)
+    if temp_pos < len(groups):
+        m = re.fullmatch(r"1([01])(\d{3})", groups[temp_pos])
         if m:
             t = int(m.group(2)) / 10
             if m.group(1) == "1":
                 t = -t
-
-            # Reject physically implausible/corrupt SYNOP temperature codes.
-            # Example: 11906 decodes to -90.6 °C and must not be published.
+            # A temperature code outside the plausible range is not published.
             if -60.0 <= t <= 60.0:
                 result["Температура воздуха"] = f"{t:+.1f} °C"
-            # If the first temperature group is invalid, do not fall through
-            # to supplementary sections or publish a fabricated temperature.
-            break
 
-    # Other parameters may occur in supplementary sections too, so continue
-    # scanning all groups for pressure and gusts, but not for air temperature.
+    # Pressure and gusts may occur later in the report, so scan all groups
+    # for those fields. Temperature is deliberately NOT searched here.
     for g in groups[station_pos + 1:]:
         # Mean sea-level pressure, group 4PPPP.
         m = re.fullmatch(r"4(\d{4})", g)
@@ -138,14 +139,13 @@ def decode(synop):
             if p < 5000:
                 p += 10000
             result["Давление на уровне моря"] = f"{p / 10 * 0.7500617:.0f} мм рт. ст."
-        
+
         # Maximum wind speed: SYNOP group 911ff, speed in m/s.
         m = re.fullmatch(r"911(\d{2})", g)
         if m:
             gust = int(m.group(1))
             if gust != 99:
                 result["Порывы ветра"] = f"{gust} м/с"
-
 
     return result
     
