@@ -104,16 +104,27 @@ def decode(synop):
                 )
 
 
-    # Decode only explicitly present groups; ///// means missing.
-    for g in groups[station_pos + 1:]:
+    # Current air temperature belongs to the main SYNOP section only.
+    # Groups after section separator 333 contain supplementary data, such
+    # as maximum temperature (e.g. 10062), and must not overwrite it.
+    try:
+        section_333 = groups.index("333", station_pos + 1)
+        main_groups = groups[station_pos + 1:section_333]
+    except ValueError:
+        main_groups = groups[station_pos + 1:]
+
+    for g in main_groups:
         m = re.fullmatch(r"1([01])(\d{3})", g)
         if m:
             t = int(m.group(2)) / 10
             if m.group(1) == "1":
                 t = -t
             result["Температура воздуха"] = f"{t:+.1f} °C"
+            break
 
-
+    # Other parameters may occur in supplementary sections too, so continue
+    # scanning all groups for pressure and gusts, but not for air temperature.
+    for g in groups[station_pos + 1:]:
         # Mean sea-level pressure, group 4PPPP.
         m = re.fullmatch(r"4(\d{4})", g)
         if m:
