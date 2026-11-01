@@ -5,8 +5,15 @@
     <link>https://www.ogimet.com/synops.phtml.en</link>
     <description>Фактические наземные SYNOP-наблюдения. Температура, ветер и давление. Источник: OGIMET.</description>
     <language>ru</language>
-    <lastBuildDate>Sun, 01 Nov 2026 00:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 03:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>Мурманск — 01.11.2026 06:00 МСК</title>
+      <link>https://www.ogimet.com/synops.phtml.en</link>
+      <guid isPermaLink="false">22113-202611010300-AAXX 01031 22113 21470 71902 10042 20025 30144 40208 58001 72582 87900 333 20030 55001 69972 91003 90730 91105==</guid>
+      <pubDate>Sun, 01 Nov 2026 03:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 01.11.2026 06:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +4.2 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: Ю, 2.0 м/с, порывы до 5 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 766 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Мурманск — 01.11.2026 03:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
@@ -167,13 +174,6 @@
       <guid isPermaLink="false">22113-202610290600-AAXX 29061 22113 12470 71905 10080 20046 30045 40107 58002 60002 87900 333 20077 91010 90760 91109==</guid>
       <pubDate>Thu, 29 Oct 2026 06:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 29.10.2026 09:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +8.0 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: Ю, 5.0 м/с, порывы до 9 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 758 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Мурманск — 29.10.2026 06:00 МСК</title>
-      <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202610290300-AAXX 29031 22113 22570 62004 10083 20058 30047 40109 52008 86500 333 20077 55001 60002 91007 90730 91109==</guid>
-      <pubDate>Thu, 29 Oct 2026 03:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 29.10.2026 06:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +8.3 °C, облачно с прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ЮЮЗ, 4.0 м/с, порывы до 9 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 758 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
