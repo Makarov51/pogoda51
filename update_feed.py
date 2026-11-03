@@ -36,13 +36,15 @@ def decode(synop):
 
     try:
         station_pos = groups.index(STATION)
-            try:
+    except ValueError:
+        return result
+
+    # Основная секция заканчивается перед дополнительной секцией 333.
+    try:
         section_333 = groups.index("333", station_pos + 1)
         main_groups = groups[station_pos + 1:section_333]
     except ValueError:
         main_groups = groups[station_pos + 1:]
-    except ValueError:
-        return result
 
     # YYGGiw: the last digit specifies wind units.
     iw = None
