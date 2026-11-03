@@ -36,6 +36,11 @@ def decode(synop):
 
     try:
         station_pos = groups.index(STATION)
+            try:
+        section_333 = groups.index("333", station_pos + 1)
+        main_groups = groups[station_pos + 1:section_333]
+    except ValueError:
+        main_groups = groups[station_pos + 1:]
     except ValueError:
         return result
 
@@ -131,16 +136,19 @@ def decode(synop):
 
     # Pressure and gusts may occur later in the report, so scan all groups
     # for those fields. Temperature is deliberately NOT searched here.
-    for g in groups[station_pos + 1:]:
-        # Mean sea-level pressure, group 4PPPP.
+    for g in main_groups:
         m = re.fullmatch(r"4(\d{4})", g)
         if m:
             p = int(m.group(1))
             if p < 5000:
                 p += 10000
-            result["Давление на уровне моря"] = f"{p / 10 * 0.7500617:.0f} мм рт. ст."
+            result["Давление на уровне моря"] = (
+                f"{p / 10 * 0.7500617:.0f} мм рт. ст."
+            )
+            break
 
-        # Maximum wind speed: SYNOP group 911ff, speed in m/s.
+    # Порывы 911ff ищем по всему сообщению, включая секцию после 333.
+    for g in groups[station_pos + 1:]:
         m = re.fullmatch(r"911(\d{2})", g)
         if m:
             gust = int(m.group(1))
