@@ -136,9 +136,14 @@ def decode(synop):
             if -60.0 <= t <= 60.0:
                 result["Температура воздуха"] = f"{t:+.1f} °C"
 
-    # Pressure and gusts may occur later in the report, so scan all groups
-    # for those fields. Temperature is deliberately NOT searched here.
-    for g in main_groups:
+    # Давление на уровне моря (4PPPP).
+    # Ищем только после группы температуры и до секции 333.
+    try:
+        section_end = groups.index("333", station_pos + 1)
+    except ValueError:
+        section_end = len(groups)
+
+    for g in groups[temp_pos + 1:section_end]:
         m = re.fullmatch(r"4(\d{4})", g)
         if m:
             p = int(m.group(1))
@@ -149,7 +154,7 @@ def decode(synop):
             )
             break
 
-    # Порывы 911ff ищем по всему сообщению, включая секцию после 333.
+    # Порывы ветра — поиск по всему сообщению, включая секцию 333.
     for g in groups[station_pos + 1:]:
         m = re.fullmatch(r"911(\d{2})", g)
         if m:
