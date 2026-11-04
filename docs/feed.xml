@@ -5,8 +5,15 @@
     <link>https://www.ogimet.com/synops.phtml.en</link>
     <description>Фактические наземные SYNOP-наблюдения. Температура, ветер и давление. Источник: OGIMET.</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 04 Nov 2026 03:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 06:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>Мурманск — 04.11.2026 09:00 МСК</title>
+      <link>https://www.ogimet.com/synops.phtml.en</link>
+      <guid isPermaLink="false">22113-202611040600-AAXX 04061 22113 11440 82008 11009 21020 30005 40069 57051 69982 78581 889// 333 21025 45997 91013 90760 91112==</guid>
+      <pubDate>Wed, 04 Nov 2026 06:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 04.11.2026 09:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -0.9 °C, облачно&lt;/li&gt;&lt;li&gt;Ветер: ЮЮЗ, 8.0 м/с, порывы до 12 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 755 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Мурманск — 04.11.2026 06:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
@@ -167,13 +174,6 @@
       <guid isPermaLink="false">22113-202611010900-AAXX 01091 22113 41350 82002 10039 20028 30128 40191 57008 78082 889// 333 91002==</guid>
       <pubDate>Sun, 01 Nov 2026 09:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 01.11.2026 12:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +3.9 °C, облачно&lt;/li&gt;&lt;li&gt;Ветер: ЮЮЗ, 2.0 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 764 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Мурманск — 01.11.2026 09:00 МСК</title>
-      <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202611010600-AAXX 01061 22113 11470 72002 10039 20026 30136 40199 57008 69942 70282 87900 333 20039 91003 90760 91105==</guid>
-      <pubDate>Sun, 01 Nov 2026 06:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 01.11.2026 09:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +3.9 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ЮЮЗ, 2.0 м/с, порывы до 5 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 765 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
