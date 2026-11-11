@@ -5,8 +5,15 @@
     <link>https://www.ogimet.com/synops.phtml.en</link>
     <description>Фактические наземные SYNOP-наблюдения. Температура, ветер и давление. Источник: OGIMET.</description>
     <language>ru</language>
-    <lastBuildDate>Tue, 10 Nov 2026 21:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 00:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>Мурманск — 11.11.2026 03:00 МСК</title>
+      <link>https://www.ogimet.com/synops.phtml.en</link>
+      <guid isPermaLink="false">22113-202611110000-AAXX 11001 22113 42570 72004 11035 21055 39912 49976 54000 87500 333 91006 90760 91109==</guid>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 11.11.2026 03:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -3.5 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ЮЮЗ, 4.0 м/с, порывы до 9 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 748 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Мурманск — 11.11.2026 00:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
@@ -167,13 +174,6 @@
       <guid isPermaLink="false">22113-202611080300-AAXX 08031 22113 22970 22709 10011 21035 39935 49997 52008 80001 333 20011 55000 60002 91012 90730 91114==</guid>
       <pubDate>Sun, 08 Nov 2026 03:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 08.11.2026 06:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +1.1 °C, малооблачно&lt;/li&gt;&lt;li&gt;Ветер: З, 9.0 м/с, порывы до 14 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 750 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Мурманск — 08.11.2026 03:00 МСК</title>
-      <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202611080000-AAXX 08001 22113 42970 32707 10016 21028 39927 49990 52005 80001 333 91011 90760 91113==</guid>
-      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 08.11.2026 03:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +1.6 °C, переменная облачность&lt;/li&gt;&lt;li&gt;Ветер: З, 7.0 м/с, порывы до 13 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 749 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
