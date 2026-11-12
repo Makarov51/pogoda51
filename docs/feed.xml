@@ -5,8 +5,15 @@
     <link>https://www.ogimet.com/synops.phtml.en</link>
     <description>Фактические наземные SYNOP-наблюдения. Температура, ветер и давление. Источник: OGIMET.</description>
     <language>ru</language>
-    <lastBuildDate>Thu, 12 Nov 2026 06:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 09:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>Мурманск — 12.11.2026 12:00 МСК</title>
+      <link>https://www.ogimet.com/synops.phtml.en</link>
+      <guid isPermaLink="false">22113-202611120900-AAXX 12091 22113 42470 72202 11068 21080 39990 40055 52007 87600 333 91004 90730 91106==</guid>
+      <pubDate>Thu, 12 Nov 2026 09:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 12.11.2026 12:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -6.8 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ЮЗ, 2.0 м/с, порывы до 6 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 754 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Мурманск — 12.11.2026 09:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
@@ -17,7 +24,7 @@
     <item>
       <title>Мурманск — 12.11.2026 06:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202611120300-AAXX 12031 22113 22470 52103 11073 21085 39977 40042 52003 85600 333 21075 55000 69902 91004 90730 91106==</guid>
+      <guid isPermaLink="false">22113-202611120300-AAXX 12031 22113 22470 52103 11073 21085 39977 40042 52003 85600 333 21075 55000 60002 91004 90730 91106==</guid>
       <pubDate>Thu, 12 Nov 2026 03:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 12.11.2026 06:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -7.3 °C, облачно с прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ЮЮЗ, 3.0 м/с, порывы до 6 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 753 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
@@ -167,13 +174,6 @@
       <guid isPermaLink="false">22113-202611091200-AAXX 09121 22113 41570 72106 10044 21004 39824 49886 57016 70282 87930 333 91009 90760 91113==</guid>
       <pubDate>Mon, 09 Nov 2026 12:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 09.11.2026 15:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +4.4 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ЮЮЗ, 6.0 м/с, порывы до 13 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 742 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Мурманск — 09.11.2026 12:00 МСК</title>
-      <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202611090900-AAXX 09091 22113 41570 72107 10041 20000 39840 49901 57021 70282 87900 333 91010 90730 91113==</guid>
-      <pubDate>Mon, 09 Nov 2026 09:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 09.11.2026 12:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +4.1 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ЮЮЗ, 7.0 м/с, порывы до 13 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 743 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
