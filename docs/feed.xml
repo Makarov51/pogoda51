@@ -5,8 +5,15 @@
     <link>https://www.ogimet.com/synops.phtml.en</link>
     <description>Фактические наземные SYNOP-наблюдения. Температура, ветер и давление. Источник: OGIMET.</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 18 Nov 2026 12:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 15:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>Мурманск — 18.11.2026 18:00 МСК</title>
+      <link>https://www.ogimet.com/synops.phtml.en</link>
+      <guid isPermaLink="false">22113-202611181500-AAXX 18151 22113 21444 80502 10004 21005 39912 49975 57014 78582 889// 333 60022 91004==</guid>
+      <pubDate>Wed, 18 Nov 2026 15:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 18.11.2026 18:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +0.4 °C, облачно&lt;/li&gt;&lt;li&gt;Ветер: СВ, 2.0 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 748 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Мурманск — 18.11.2026 15:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
@@ -167,13 +174,6 @@
       <guid isPermaLink="false">22113-202611151800-AAXX 15181 22113 11562 71907 11046 21065 39775 49838 52022 69902 73683 87900 333 11006 91010 90760 91115==</guid>
       <pubDate>Sun, 15 Nov 2026 18:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 15.11.2026 21:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -4.6 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: Ю, 7.0 м/с, порывы до 15 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 738 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Мурманск — 15.11.2026 18:00 МСК</title>
-      <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202611151500-AAXX 15151 22113 21461 32107 11033 21052 39753 49816 52021 73683 82930 333 69902 91012 90730 91114==</guid>
-      <pubDate>Sun, 15 Nov 2026 15:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 15.11.2026 18:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -3.3 °C, переменная облачность&lt;/li&gt;&lt;li&gt;Ветер: ЮЮЗ, 7.0 м/с, порывы до 14 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 736 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
