@@ -5,8 +5,15 @@
     <link>https://www.ogimet.com/synops.phtml.en</link>
     <description>Фактические наземные SYNOP-наблюдения. Температура, ветер и давление. Источник: OGIMET.</description>
     <language>ru</language>
-    <lastBuildDate>Wed, 25 Nov 2026 15:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 18:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>Мурманск — 25.11.2026 21:00 МСК</title>
+      <link>https://www.ogimet.com/synops.phtml.en</link>
+      <guid isPermaLink="false">22113-202611251800-AAXX 25181 22113 11440 70207 11008 21021 30088 40152 52012 60052 78583 87900 333 10025 91011 90760 91120==</guid>
+      <pubDate>Wed, 25 Nov 2026 18:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 25.11.2026 21:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -0.8 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ССВ, 7.0 м/с, порывы до 20 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 761 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Мурманск — 25.11.2026 18:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
@@ -167,13 +174,6 @@
       <guid isPermaLink="false">22113-202611222100-AAXX 22211 22113 41569 70107 10022 20006 30059 40122 52017 72682 87900 333 91011 90730 91112==</guid>
       <pubDate>Sun, 22 Nov 2026 21:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 23.11.2026 00:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +2.2 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: С, 7.0 м/с, порывы до 12 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 759 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Мурманск — 22.11.2026 21:00 МСК</title>
-      <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202611221800-AAXX 22181 22113 11460 83406 10014 20007 30042 40105 52010 60032 78382 889// 333 10014 91009 90760 91113==</guid>
-      <pubDate>Sun, 22 Nov 2026 18:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 22.11.2026 21:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: +1.4 °C, облачно&lt;/li&gt;&lt;li&gt;Ветер: ССЗ, 6.0 м/с, порывы до 13 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 758 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
