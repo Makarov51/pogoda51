@@ -5,8 +5,15 @@
     <link>https://www.ogimet.com/synops.phtml.en</link>
     <description>Фактические наземные SYNOP-наблюдения. Температура, ветер и давление. Источник: OGIMET.</description>
     <language>ru</language>
-    <lastBuildDate>Thu, 26 Nov 2026 21:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 00:30:00 +0000</lastBuildDate>
     <ttl>60</ttl>
+    <item>
+      <title>Мурманск — 27.11.2026 03:00 МСК</title>
+      <link>https://www.ogimet.com/synops.phtml.en</link>
+      <guid isPermaLink="false">22113-202611270000-AAXX 27001 22113 41423 60205 11003 21013 30182 40246 52007 78583 86900 333 91010 90760 91114==</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 27.11.2026 03:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -0.3 °C, облачно с прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ССВ, 5.0 м/с, порывы до 14 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 769 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Мурманск — 27.11.2026 00:00 МСК</title>
       <link>https://www.ogimet.com/synops.phtml.en</link>
@@ -167,13 +174,6 @@
       <guid isPermaLink="false">22113-202611240300-AAXX 24031 22113 22570 72901 11001 21018 30158 40223 52003 87900 333 21004 55000 69932 91002==</guid>
       <pubDate>Tue, 24 Nov 2026 03:00:00 +0000</pubDate>
       <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 24.11.2026 06:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -0.1 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: ЗСЗ, 1.0 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 767 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Мурманск — 24.11.2026 03:00 МСК</title>
-      <link>https://www.ogimet.com/synops.phtml.en</link>
-      <guid isPermaLink="false">22113-202611240000-AAXX 24001 22113 41568 70802 11001 21016 30155 40220 54000 70282 87900 333 91003 90760 91107==</guid>
-      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
-      <description>&lt;p&gt;&lt;b&gt;Погода на ГМС Мурманск — 24.11.2026 03:00 МСК&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Температура воздуха: -0.1 °C, облачно с незначительными прояснениями&lt;/li&gt;&lt;li&gt;Ветер: В, 2.0 м/с, порывы до 7 м/с&lt;/li&gt;&lt;li&gt;Давление на уровне моря: 767 мм рт. ст.&lt;/li&gt;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
